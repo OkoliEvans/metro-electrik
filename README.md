@@ -1,13 +1,13 @@
-## Foundry
+## Metro eletrik
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+**Metro eletrik is an on-chain electricitiy subscription system where energy users can buy uints using cryptocurrencies.**
 
-Foundry consists of:
+How to:
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+-   **Create Disco**: Electricity distribution companies can create business profile on the platform, passing in required parameters 
+-   **BuyWithUSDC**: Subscribers can either buy units with USDC or Ether. To buy with USDC, select "buy with USDC", then pass in meterNo and the unit amount to recharge. 
+-   **BuyWithEther**: To buy units with Ether, select "buy with Ether", pass in your meter number and the amount of Ether you want to subscribe. First time subscribers are rewarded with some Metro tokens.
+-   **setUnitPrice**: 
 
 ## Documentation
 
