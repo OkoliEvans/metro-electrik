@@ -80,7 +80,7 @@ contract Metro {
         uint256 unitAmount,
         uint256 meterNo
     ) external payable {
-        if (unitAmount <= _unitPrice || meterNo <= 0)
+        if (unitAmount < _unitPrice || meterNo <= 0)
             revert("buyUnits: Invalid unit price");
         (bool success, ) = payable(address(this)).call{value: unitAmount}("");
         require(success, "Ether transfer fail");
