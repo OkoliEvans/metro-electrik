@@ -43,5 +43,26 @@ $ forge test
 
 
 ```shell
-$ forge --help
+$ forge create --rpc-url <your_rpc_url> \
+    --private-key <your_private_key> \
+    --etherscan-api-key <your_etherscan_api_key> \
+    --verify \
+    src/metroFactory.sol:MetroFactory
 ```
+
+## Frontend
+
+
+### Installation
+
+```shell
+$ cd frontend
+$ npm install
+```
+
+### Build
+```shell
+$ npm run dev
+```
+
+- Go to **http://localhost:3000**
